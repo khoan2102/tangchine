@@ -1,0 +1,41 @@
+body {
+  background-image: url('img/BACKGROUNDTET6.jpg');
+  background-size: cover; /* Làm cho hình ảnh phủ kín màn hình */
+  background-position: center; /* Đảm bảo hình ảnh được căn giữa */
+  background-attachment: fixed; /* Nền cố định khi cuộn trang */
+}
+
+@media (max-width: 768px) { /* Cho máy tính bảng và điện thoại */
+  body {
+      background-image: url('img/BACKGROUNDTET6-mobile.jpg'); /* Hình ảnh nền tối ưu cho thiết bị di động */
+      background-size: cover;
+      background-position: center;
+  }
+}
+
+.button-container {
+  display: none;
+  background-color: beige;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(47, 45, 45, 0.26);
+  text-align: center;
+  width: 100%;
+  max-width: 500px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.container {
+  text-align: center;
+  padding: 10px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  border: 2px solid #a28282;
+  border-radius: 10px;
+  background-color: #ea5252;
+  margin-bottom: 10px;
+  line-height: 1.5;
+  font-weight: bold;
+}
