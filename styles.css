@@ -7,7 +7,7 @@ body {
 
 @media (max-width: 768px) { /* Cho máy tính bảng và điện thoại */
   body {
-      background-image: url('img/BACKGROUNDTET6-mobile.jpg'); /* Hình ảnh nền tối ưu cho thiết bị di động */
+      background-image: url('img/tet.jpg'); /* Hình ảnh nền tối ưu cho thiết bị di động */
       background-size: cover;
       background-position: center;
   }
