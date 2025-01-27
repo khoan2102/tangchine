@@ -369,23 +369,28 @@ function showText() {
   setTimeout(function () {
     typeText(
       "line1",
-      "Chúc mừng năm mới đến với chị và gia đình chị, những người luôn là bến đỗ vững vàng, là nguồn động viên và là niềm vui lớn nhất trong cuộc sống của chụy !",
+      "🎆Chúc mừng năm mới đến với chị và gia đình chị, chúc cho năm nay của chị thật rực rỡ , may mắn và tràn đầy niềm vui . ",
       70,
       function () {
         setTimeout(function () {
           typeText(
             "line2",
-            "Năm mới này, em chúc chị và gia đình luôn vui vẻ, mạnh khoẻ và hạnh phúc.",
+            "🎆Chúc chị luôn luôn xinh đẹp , tự tin , thu hút mọi ánh nhìn , không ngừng nỗ lực để đạt đc mọi thành tích trên mọi lĩnh vực , từ học tập cho đến công việc sau này .",
             70,
             function () {
               setTimeout(function () {
                 typeText(
                   "line3",
-                  "Chúc chị và gia đình một năm mới tràn ngập tiếng cười, những bữa cơm ấm áp và chúc mọi điều tốt đẹp nhất đến với chị và gia đình chị!",
+                  "🎆Chúc chị và gia đình một năm mới tràn ngập tiếng cười, những bữa cơm ấm áp và chúc mọi điều tốt đẹp nhất đến với chị và gia đình chị!",
                   70,
                   function () {
                     setTimeout(function () {
-                      typeText("line4", "Hạp Bì Nìu Zìa!", 70, function () {});
+                      typeText(
+                        "line4",
+                        "Hạp Bì Nìu Zìa! ❤️ Love You ❤️ ",
+                        70,
+                        function () {}
+                      );
                     }, 500);
                   }
                 );
